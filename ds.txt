@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Important Meta Tags -->
+    <meta
+        content="Get started with a test drive of florixer by a few steps in making your business and ideas cover online."
+        name="description">
+    <meta
+        content="florixer, Freelancing, Web Services, Online Business, Web Development, Web Design, Tense, E-commerce, Dropship, Technology Company, Kaushal Krishna, Spotify Clone"
+        name="keywords">
+    <meta property="og:site_name" content="florixer />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.florixer.rf.gd/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@florixer />
+    <meta name="twitter:site" content="@florixer />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta property="og:title" content="florixer - Online Business Made Easy" />
+    <meta name="twitter:title" content="florixer - Online Business Made Easy" />
+    <meta property="og:description"
+        content="Make your business online. Get started with a test drive of florixer by a few steps in making your business and ideas cover online." />
+    <meta name="description"
+        content="Make your business online. Get started with a test drive of florixer by a few steps in making your business and ideas cover online." />
+    <link rel="shortcut icon" href="https://florixer.rf.gd/favicon.ico" type="image/x-icon">
+    <meta property="og:image" content="https://florixer.rf.gd/assets/img/home-preview.png" />
+    <meta name="twitter:image" content="https://florixer.rf.gd/assets/img/home-preview.png" />
+    <link rel="canonical" href="https://www.florixer.rf.gd/" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Technology Company",
+      "name": "florixer - Technology Company",
+      "description": "florixer - Online web services like freelancing and web applications provider platform",
+      "logo": "https://florixer.rf.gd/assets/img/florixer_logo.png"
+    },
+    "email": "mailto:mail@florixer.rf.gd",
+    "url": "https://www.florixer.rf.gd/",
+    "sameAs": ["https://twitter.com/florixer, "https://www.facebook.com/florixer.fb", "https://www.linkedin.com/company/florixer, "https://instagram.com/florixer.ig/", "https://www.youtube.com/florixer, "https://www.pinterest.com/florixer/"]
+    }
+  </script>
+    <title>florixer - Technology Company</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DPR2078P09"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-DPR2078P09');
+    </script>
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito&family=PT+Sans&family=Montserrat&family=Ubuntu&family=Orbitron&family=Noto+Sans&display=swap"
+        rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
+
+    <!-- Box Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+    <!-- jQuery Minified Version -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <title>florixer - By florixer</title>
+</head>
+
+<body id="body">
+    <main id="main">
+        <header id="header">
+            <div class="left">
+                <div class="logo">
+                    <a href="/"><img src="assets/img/logo_dark.png" id="logo-img" alt="florixer></a>
+                </div>
+            </div>
+            <div class="right">
+                <div class="auth-user">
+                    <i class="notifications fal fa-heart"></i>
+                    <div
+                        class="auth-btn <?php echo (!isset($_SESSION['loggedin'])) ? 'visible' : ''; ?> <?php echo (isset($_SESSION['loggedin'])) ? 'hidden' : ''; ?>">
+                        <a href="auth/login/"><button class="btn" id="login-btn">Sign In</button></a>
+                        <a href="auth/register/"><button class="btn" id="signup-btn">Sign up</button></a>
+                    </div>
+                    <i
+                        class="user-profile <?php echo (!isset($_SESSION['loggedin'])) ? 'hidden' : ''; ?> <?php echo (isset($_SESSION['loggedin'])) ? 'visible' : ''; ?>">
+                        <?php if ($image == NULL) {
+                    echo '<img src="auth/assets/img/avatar/default-avatar.png"></a>';
+                  } else {
+                    echo '<img style="border: 1px solid #ccc; object-fit: cover;" src="auth/assets/img/uploads/profile/' . $image . '"></a>';
+                  } ?>
+                    </i>
+                </div>
+        </header>
+        <!-- ======= End Header Section ======= -->
+
+        <section id="home">
+
+        </section>
+        <section id="search">
+
+        </section>
+        <section id="create">
+
+        </section>
+        <section id="reels">
+
+        </section>
+        <section id="profile">
+
+        </section>
+    </main>
+</body>
+
+</html>
